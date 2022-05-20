@@ -271,7 +271,7 @@ footer p{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         padding: 0;
-        padding-left: 2rem;
+        padding-right: 2rem;
     }
    
     footer{
