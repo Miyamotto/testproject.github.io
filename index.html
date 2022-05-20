@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -13,15 +14,19 @@
             <div class="navbar">
                 <nav>
                     <p>Johnathan Specter</p>
-                    <ul>
-                        <li>Article</li>
-                        <li>Chats</li>
-                        <li>Awards</li>
-                        <li>About</li>
+                    <ul class="navMenu">
+                        <li class="navItem"><a href="#" class="navLink">Article</a> </li>
+                        <li class="navItem"><a href="#" class="navLink">Chats</a> </li>
+                        <li class="navItem"><a href="#" class="navLink">Awards</a></li>
+                        <li class="navItem"><a href="#" class="navLink">About</a></li>
                         
                     </ul>
                     <button class="btnEl">Get in touch</button>
-                    <img class= "hamburgerMenu"src="assets/HamburgerMenu.svg" alt="">
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </nav>
             </div>
             <div class="mainText">
@@ -117,5 +122,6 @@
                 </div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
